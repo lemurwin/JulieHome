@@ -11,11 +11,24 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 <style>
 body{
-  font-family:'Source Sans Pro', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
+    background: url("./Resources/pictures/background.jpg")center 0px no-repeat fixed;
+    background-size: cover;
+}
+.container-fluid{
+  background-color:rgba(255, 255, 255, 0.5);
 }
   #nav{
     padding:0px 30px;
   }
+  .fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color:rgba(255, 255, 255, 0.5);}
 </style>
 </head>
 
@@ -39,14 +52,14 @@ body{
         <li><a href="./index.html">Home</a></li>
         <li class="active"><a href="#">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./music.html">Music</a></li>
         <li><a href="./classes.html">Classes</a></li>
       </ul>
 			</div>
 		</div>
  </nav>
 </div>
-
+<div class="fullscreen">
 <div class="container" style="margin-top:50px">
 
 
@@ -65,7 +78,7 @@ body{
   <div class="col-sm-4"><img src="./Resources/pictures/profile1.jpg" class="img-circle" alt="Julie Moon" width="100%" max-height="100px"></div>
 </div>
 </div>
-
+</div>
 
  </body>
  </html>
