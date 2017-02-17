@@ -19,7 +19,7 @@ body{
 }
  .jumbotron{
    font-family:'Source Sans Pro', sans-serif;
-   background-color: rgba(255, 255, 255, 0.0);
+   background-color: rgba(255, 255, 255, 0.0  );
    color: white;
    padding: 230px 25px;
    margin-top: 50px;
@@ -31,6 +31,7 @@ body{
     padding: 60px 50px;
     background-color:rgba(255, 255, 255, 0.5);
   }
+
   #nav{
     padding:0px 30px;
 
@@ -42,7 +43,8 @@ body{
     bottom: 0;
     right: 0;
     overflow: auto;
-    background-color:rgba(255, 255, 255, 0.5);}
+    background-color:rgba(255, 255, 255, 0.3);
+  }
 
 
   </style>
@@ -67,7 +69,14 @@ body{
         <li class="active"><a href="#">Home</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./music.html">Music</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Music
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./listen.html">Listen</a></li>
+        </ul>
+        </li>
         <li><a href="./classes.html">Classes</a></li>
       </ul>
 			</div>
@@ -77,7 +86,7 @@ body{
 <div class="fullscreen">
     <div class="jumbotron text-center">
 
-      <h2><a href="./about.html" style="text-decoration:none"><font color="#FFFFFF">Julie</font> <font color="#555555">Moon</font></a></h2>
+      <h2><a href="./about.html" style="text-decoration:none"><font color="#FFFFFF">Julie</font> <font color="#333333">Moon</font></a></h2>
     </div>
 
     <!--<div class="container-fluid">

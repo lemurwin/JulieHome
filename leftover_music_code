@@ -1,0 +1,224 @@
+<div class="row" >
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapseouter"><h3>Ommo</h3></a>
+        </h4>
+      </div>
+      <div id="collapseouter" class="panel-collapse collapse">
+
+    <div class="panel-group" id="accordion" style="margin-bottom:0px">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#ommo1">
+        <h4><em>Decades</em> - excerpt (2016)</h4></a>
+      </h4>
+    </div>
+    <div id="ommo1" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+        <audio controls="">
+          <source src="audio/decades_excerpt.mp3" type="audio/mp3">
+          <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+        </audio>
+        <p>Julie Moon - <em>Voice</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#ommo2">
+        <h4><em>Live @ Omni Commons</em> - excerpt(1.12.2016)</h4></a>
+      </h4>
+    </div>
+    <div id="ommo2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+          <audio controls="">
+            <source src="audio/OMMO_ActiveTheremin.mp3" type="audio/mp3">
+            <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+          </audio>
+        <p>Julie Moon - <em>Voice &amp; Electronics</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#ommo3">
+        <h4><em>Third Music</em> - (2016)</h4></a>
+      </h4>
+    </div>
+    <div id="ommo3" class="panel-collapse collapse">
+      <div class="panel-body"> Audo controls go here</div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- MMJM Group -->
+<div class="row">
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapseouter2"><h3>MMJM</h3></a>
+        </h4>
+      </div>
+      <div id="collapseouter2" class="panel-collapse collapse">
+
+    <div class="panel-group" id="accordion1" style="margin-bottom:0px">
+<!--First Panel Group-->
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion1" href="#mmjm1">
+        <h4><em>Untitled</em> - @ musicians union (05.08.2016)</h4></a>
+      </h4>
+    </div>
+    <div id="mmjm1" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+        <audio controls="">
+          <source src="audio/decades_excerpt.mp3" type="audio/mp3">
+          <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+        </audio>
+        <p>Julie Moon - <em>Voice</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+<!-- Second Panel Group -->
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion1" href="#mmjm2">
+        <h4><em>Live @ Omni Commons</em> - excerpt(1.12.2016)</h4></a>
+      </h4>
+    </div>
+    <div id="mmjm2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+          <audio controls="">
+            <source src="audio/OMMO_ActiveTheremin.mp3" type="audio/mp3">
+            <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+          </audio>
+        <p>Julie Moon - <em>Voice &amp; Electronics</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--Third Group -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion1" href="#mmjm3">
+        <h4><em>Third Music</em> - (2016)</h4></a>
+      </h4>
+    </div>
+    <div id="mmjm3" class="panel-collapse collapse">
+      <div class="panel-body"> Audo controls go here</div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+</div>
+
+<!-- Any other projects can go under here-->
+
+<div class="row">
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <!-- New Titling, change "collapseouter3" here-->
+          <a data-toggle="collapse" href="#collapseouter3"><h3>Another Project</h3></a>
+        </h4>
+      </div>
+          <!-- Change collapseouter3 to new name as above -->
+      <div id="collapseouter3" class="panel-collapse collapse">
+
+    <div class="panel-group" id="accordion2" style="margin-bottom:0px">
+
+<!-- First project group-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <!-- Change "#newproject1" -->
+        <a data-toggle="collapse" data-parent="#accordion2" href="#newproject1">
+        <h4><em>Decades</em> - excerpt (2016)</h4></a>
+      </h4>
+    </div>
+    <!-- change id "newproject1"-->
+    <div id="newproject1" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+        <audio controls="">
+          <source src="audio/decades_excerpt.mp3" type="audio/mp3">
+          <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+        </audio>
+        <p>Julie Moon - <em>Voice</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Second Project Group -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <!-- change "#newproject2"-->
+        <a data-toggle="collapse" data-parent="#accordion2" href="#newproject2">
+        <h4><em>Live @ Omni Commons</em> - excerpt(1.12.2016)</h4></a>
+      </h4>
+    </div>
+    <!-- change "new project2" -->
+    <div id="newproject2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="thumbnail" style="margin-bottom:0px">
+          <audio controls="">
+            <source src="audio/OMMO_ActiveTheremin.mp3" type="audio/mp3">
+            <source src="audio/decades_excerpt.ogg" type="audio/ogg">
+          </audio>
+        <p>Julie Moon - <em>Voice &amp; Electronics</em> / Adria Otte - <em>Electronics</em></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- third sample group -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <!-- change "#newproject3"-->
+        <a data-toggle="collapse" data-parent="#accordion2" href="#newproject3">
+        <h4><em>Third Music</em> - (2016)</h4></a>
+      </h4>
+    </div>
+    <div id="newproject3" class="panel-collapse collapse">
+      <div class="panel-body"> Audio controls go here</div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>

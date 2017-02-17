@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 <style>
+
 body{
   font-family:'Source Sans Pro', sans-serif;
   background: url("./Resources/pictures/background.jpg")center 0px no-repeat fixed;
@@ -19,9 +20,14 @@ body{
   #nav{
     padding:0px 30px;
   }
-  .container-fluid{
-      background-color:rgba(255, 255, 255, 0.5);
-  }
+
+  .panel-group{background-color:rgba(255, 255, 255, 0.5)}
+  .panel{background-color:rgba(255, 255, 255, 0.0)}
+
+  .panel-default>.panel-heading{background-color:rgba(255, 255, 255, 0.5)}
+  .panel-heading{background-color:rgba(255, 255, 255, 0.3)}
+
+  .thumbnail{background-color:rgba(255, 255, 255, 0.5)}
   .fullscreen {
   position: fixed;
   top: 0;
@@ -29,9 +35,7 @@ body{
   bottom: 0;
   right: 0;
   overflow: auto;
-  background-color:rgba(255, 255, 255, 0.5); /* Just to visualize the extent */
-
-}
+  background-color:rgba(255, 255, 255, 0.5);}
 </style>
 </head>
 
@@ -55,7 +59,7 @@ body{
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
-        <li class="dropdown">
+        <li class="dropdown; active">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Music
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -63,12 +67,13 @@ body{
           <li><a href="./listen.html">Listen</a></li>
         </ul>
         </li>
-        <li class="active"><a href="#">Classes</a></li>
+        <li><a href="./classes.html">Classes</a></li>
       </ul>
 			</div>
 		</div>
  </nav>
 </div>
+
 
 <div class="fullscreen">
 <div class="container" style="margin-top:50px">
@@ -76,23 +81,72 @@ body{
 
 <div class="row">
   <div class="col-sm-12">
-<h3>Classes</h3>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-8"></div>
-  <div class="col-sm-4"></div>
-</div>
-<div class="row">
-  <div class="col-sm-8">
-    <p>Julie teaches class many times a week. With over 20 years of classical Piano training, Julie will turn your child into the musical prodigy he or she always wanted to be</p>
-  </div>
-  <div class="col-sm-4">
-    <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rjro25t52ohfllj2956e6estk4%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+<h3><a href="./music.html" style="text-decoration:none">Music</a> > Projects</h3>
   </div>
 </div>
 
+<div class="row">
+
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h14 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">
+          <h3>Ommo</h3></a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">This is where you can write a whole big sentence about what OMMO Music is. Where and
+      when they were founded. Goals, etc. You know the deal.</div>
+      <div class="panel-footer">This is where you can put <a href="./ommo.html">links</a></div>
+    </div>
+  </div>
+</div>
+
+</div> <!--Row Div -->
+
+<div class="row">
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h14 class="panel-title">
+        <a data-toggle="collapse" href="#collapse2">
+          <h3>MMJM</h3></a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">This is where you can write a whole big sentence about what OMMO Music is. Where and
+      when they were founded. Goals, etc. You know the deal.</div>
+      <div class="panel-footer">This is where you can put <a href="./ommo.html">links</a></div>
+    </div>
+  </div>
+  </div>
+</div> <!--Row Div -->
+
+<div class="row">
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h14 class="panel-title">
+        <a data-toggle="collapse" href="#collapse3">
+          <h3>Other Project</h3></a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">This is where you can write a whole big sentence about what OMMO Music is. Where and
+      when they were founded. Goals, etc. You know the deal.</div>
+      <div class="panel-footer">This is where you can put <a href="./ommo.html">links</a></div>
+    </div>
+  </div>
+  </div>
+</div> <!--Row Div -->
+
+
+
+
+<!--Container Div-->
 </div>
 </div>
+
  </body>
  </html>

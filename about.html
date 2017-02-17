@@ -19,6 +19,7 @@ body{
 .container-fluid{
   background-color:rgba(255, 255, 255, 0.5);
 }
+
   #nav{
     padding:0px 30px;
   }
@@ -30,6 +31,7 @@ body{
   right: 0;
   overflow: auto;
   background-color:rgba(255, 255, 255, 0.5);}
+
 </style>
 </head>
 
@@ -53,7 +55,14 @@ body{
         <li><a href="./index.html">Home</a></li>
         <li class="active"><a href="#">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./music.html">Music</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Music
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./listen.html">Listen</a></li>
+        </ul>
+        </li>
         <li><a href="./classes.html">Classes</a></li>
       </ul>
 			</div>
@@ -61,6 +70,7 @@ body{
  </nav>
 </div>
 <div class="fullscreen">
+
 <div class="container" style="margin-top:50px">
 
 
